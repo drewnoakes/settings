@@ -1,0 +1,5 @@
+<kpartgui version="1" name="kdevcodeutils">
+  <ActionProperties>
+    <Action shortcut="Alt+Shift+D" name="document_declaration"/>
+  </ActionProperties>
+</kpartgui>
