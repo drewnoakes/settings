@@ -1,0 +1,7 @@
+[user]
+	name = Drew Noakes
+	email = git@drewnoakes.com
+[color]
+	ui = auto
+[core]
+	autocrlf = input
