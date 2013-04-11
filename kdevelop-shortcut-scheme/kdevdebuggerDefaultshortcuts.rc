@@ -3,5 +3,6 @@
     <Action shortcut="F10" name="debug_stepover"/>
     <Action shortcut="F11" name="debug_stepinto"/>
     <Action shortcut="F12" name="debug_stepout"/>
+    <Action shortcut="Ctrl+Alt+B" name="debug_toggle_breakpoint"/>
   </ActionProperties>
 </kpartgui>

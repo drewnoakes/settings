@@ -1,5 +1,6 @@
 <kpartgui version="1" name="kdevprojectmanagerview">
   <ActionProperties>
+    <Action shortcut="Ctrl+B" name="project_buildall"/>
     <Action shortcut="F8" name="project_build"/>
     <Action shortcut="Ctrl+&lt;" name="locate_document"/>
   </ActionProperties>
