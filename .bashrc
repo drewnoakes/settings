@@ -103,7 +103,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-alias make='colormake -j7'
+alias make='make -j4'
 alias h=history
 alias gs='git status'
 alias gk='gitk --all'
