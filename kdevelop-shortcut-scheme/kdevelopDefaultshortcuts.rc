@@ -15,7 +15,7 @@
     <Action shortcut="Ctrl+N" name="file_new"/>
     <Action shortcut="Ctrl+Shift+V" name="add_toolview"/>
     <Action shortcut="Ctrl+O" name="file_open"/>
-    <Action shortcut="Ctrl+L" name="file_save_all"/>
+    <Action shortcut="Ctrl+Shift+S" name="file_save_all"/>
     <Action shortcut="Ctrl+W" name="file_close"/>
     <Action shortcut="Ctrl+Shift+W" name="file_closeother"/>
     <Action shortcut="Shift+F9" name="run_execute"/>
