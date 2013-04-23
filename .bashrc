@@ -109,3 +109,6 @@ alias gs='git status'
 alias gk='gitk --all'
 alias gd='git diff'
 alias gdc='git diff --cached'
+
+alias android-connect='mtpfs -o allow_other /media/GalaxyNexus'
+alias android-disconnect='fusermount -u /media/GalaxyNexus'
