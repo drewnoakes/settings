@@ -103,12 +103,17 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+alias watch='watch -d -t --color -b -e'
 alias make='make -j4'
 alias h=history
-alias gs='git status'
+alias gs='git status -sb'
 alias gk='gitk --all'
 alias gd='git diff'
 alias gdc='git diff --cached'
+alias gg='gitg > /dev/null &'
+alias gw='watch -d -t --color -b -e "hostname && echo && git -c color.status=always status -sb"'
 
 alias android-connect='mtpfs -o allow_other /media/GalaxyNexus'
 alias android-disconnect='fusermount -u /media/GalaxyNexus'
+
+alias bh='~/bold-humanoid/bh'
