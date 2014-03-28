@@ -113,7 +113,4 @@ alias gdc='git diff --cached'
 alias gg='gitg > /dev/null &'
 alias gw='watch -d -t --color -b -e "hostname && echo && git -c color.status=always status -sb"'
 
-alias android-connect='mtpfs -o allow_other /media/GalaxyNexus'
-alias android-disconnect='fusermount -u /media/GalaxyNexus'
-
 alias bh='~/bold-humanoid/bh'
