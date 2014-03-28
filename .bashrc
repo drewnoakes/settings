@@ -114,3 +114,7 @@ alias gg='gitg > /dev/null &'
 alias gw='watch -d -t --color -b -e "hostname && echo && git -c color.status=always status -sb"'
 
 alias bh='~/bold-humanoid/bh'
+
+export GIT_EDITOR=vim
+export VISUAL=vim
+export EDITOR=vim
