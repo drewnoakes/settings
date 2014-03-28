@@ -10,6 +10,9 @@ require("naughty")
 -- Load Debian menu entries
 require("debian.menu")
 
+-- Load vicious modular widget library
+vicious = require("vicious")
+
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -98,6 +101,12 @@ mylauncher = awful.widget.launcher({ image = image(beautiful.awesome_icon),
                                      menu = mymainmenu })
 -- }}}
 
+-- {{{Vicious widgets
+-- Memory usage
+mymemwidget = widget({ type = "textbox" })
+vicious.register(mymemwidget, vicious.widgets.mem, "$1% ($2MB/$3MB)", 13)
+-- }}}
+
 -- {{{ Wibox
 -- Create a textclock widget
 mytextclock = awful.widget.textclock({ align = "right" })
@@ -180,6 +189,7 @@ for s = 1, screen.count() do
             layout = awful.widget.layout.horizontal.leftright
         },
         mylayoutbox[s],
+--	mymemwidget,
         mytextclock,
         s == 1 and mysystray or nil,
         mytasklist[s],
