@@ -1,6 +1,6 @@
 # copy this file to ~/.config/git/git-prompt.sh
 
-PS1='\[\033]0;$PWD\007\]' # set window title
+PS1='\[\033]0;\w\007\]'        # set window title as working directory
 PS1="$PS1"'\n'                 # new line
 PS1="$PS1"'\[\033[32m\]'       # change to green
 PS1="$PS1"'\w'                 # current working directory
